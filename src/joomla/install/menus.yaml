@@ -1,0 +1,9 @@
+creative-theme:
+  title: 'Creative Theme'
+  description: 'Sample menu for Creative theme.'
+
+  items:
+    creative:
+      title: 'Home'
+      outline: home_-_particles
+      home: 1
