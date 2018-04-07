@@ -1,6 +1,6 @@
 preset1:
   image: 'gantry-admin://images/preset1.png'
-  description: 'Preset 1'
+  description: GANTRY5_PLATFORM_PRESET1
   colors:
     - '#58bd91'
     - '#ffffff'
@@ -14,11 +14,8 @@ preset1:
       color-1: '#58bd91'
       color-2: '#33a58c'
     font:
-      family-default:   'muli, sans-serif, Tahoma, Geneva, Arial'
-      family-title:     'muli, sans-serif, Tahoma, Geneva, Arial'
-      family-promo:     'playfairdisplay'
-      family-subpromo:  'playfairdisplay italic'
-      family-weather:     'weather'
+      family-default: 'Raleway, Helvetica, Tahoma, Geneva, Arial, sans-serif'
+      family-title: 'Lato, Helvetica, Tahoma, Geneva, Arial, sans-serif'
     top:
       background: '#58bd91'
       text-color: '#ffffff'

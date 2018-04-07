@@ -1,6 +1,6 @@
 preset1:
   image: 'gantry-admin://images/preset1.png'
-  description: 'Preset 1'
+  description: GANTRY5_PLATFORM_PRESET1
   colors:
     - '#58bd91'
     - '#ffffff'
@@ -14,11 +14,8 @@ preset1:
       color-1: '#58bd91'
       color-2: '#33a58c'
     font:
-      family-default:   'muli, sans-serif, Tahoma, Geneva, Arial'
-      family-title:     'muli, sans-serif, Tahoma, Geneva, Arial'
-      family-promo:     'playfairdisplay'
-      family-subpromo:  'playfairdisplay italic'
-      family-weather:  'weather'
+      family-default: 'Raleway, Helvetica, Tahoma, Geneva, Arial, sans-serif'
+      family-title: 'Lato, Helvetica, Tahoma, Geneva, Arial, sans-serif'
     top:
       background: '#58bd91'
       text-color: '#ffffff'
@@ -73,7 +70,7 @@ preset1:
       mobile-menu-breakpoint: 48rem
 preset2:
   image: 'gantry-admin://images/preset2.png'
-  description: 'Preset 2'
+  description: GANTRY5_PLATFORM_PRESET2
   colors:
     - '#0088f3'
     - '#ffffff'
@@ -87,11 +84,8 @@ preset2:
       color-1: '#0088f3'
       color-2: '#1c7dc9'
     font:
-      family-default:   'muli, sans-serif, Tahoma, Geneva, Arial'
-      family-title:     'muli, sans-serif, Tahoma, Geneva, Arial'
-      family-promo:     'playfairdisplay'
-      family-subpromo:  'playfairdisplay italic'
-      family-weather:  'weather'
+      family-default: 'Raleway, Helvetica, Tahoma, Geneva, Arial, sans-serif'
+      family-title: 'Lato, Helvetica, Tahoma, Geneva, Arial, sans-serif'
     top:
       background: '#0088f3'
       text-color: '#ffffff'
@@ -146,7 +140,7 @@ preset2:
       mobile-menu-breakpoint: 48rem
 preset3:
   image: 'gantry-admin://images/preset3.png'
-  description: 'Preset 3'
+  description: GANTRY5_PLATFORM_PRESET3
   colors:
     - '#855cb7'
     - '#ffffff'
@@ -160,11 +154,8 @@ preset3:
       color-1: '#855cb7'
       color-2: '#b070b2'
     font:
-      family-default:   'muli, sans-serif, Tahoma, Geneva, Arial'
-      family-title:     'muli, sans-serif, Tahoma, Geneva, Arial'
-      family-promo:     'playfairdisplay'
-      family-subpromo:  'playfairdisplay italic'
-      family-weather:  'weather'
+      family-default: 'Raleway, Helvetica, Tahoma, Geneva, Arial, sans-serif'
+      family-title: 'Lato, Helvetica, Tahoma, Geneva, Arial, sans-serif'
     top:
       background: '#b070b2'
       text-color: '#ffffff'
@@ -219,7 +210,7 @@ preset3:
       mobile-menu-breakpoint: 48rem
 preset4:
   image: 'gantry-admin://images/preset4.png'
-  description: 'Preset 4'
+  description: GANTRY5_PLATFORM_PRESET4
   colors:
     - '#d72714'
     - '#ffffff'
@@ -233,11 +224,8 @@ preset4:
       color-1: '#d72714'
       color-2: '#a31b0d'
     font:
-      family-default:   'muli, sans-serif, Tahoma, Geneva, Arial'
-      family-title:     'muli, sans-serif, Tahoma, Geneva, Arial'
-      family-promo:     'playfairdisplay'
-      family-subpromo:  'playfairdisplay italic'
-      family-weather:  'weather'
+      family-default: 'Raleway, Helvetica, Tahoma, Geneva, Arial, sans-serif'
+      family-title: 'Lato, Helvetica, Tahoma, Geneva, Arial, sans-serif'
     top:
       background: '#a31b0d'
       text-color: '#ffffff'
@@ -293,7 +281,7 @@ preset4:
 
 preset5:
   image: 'gantry-admin://images/preset5.png'
-  description: 'Preset 5'
+  description: GANTRY5_PLATFORM_PRESET5
   colors:
     - '#ebaa10'
     - '#ffffff'
@@ -307,11 +295,8 @@ preset5:
       color-1: '#ebaa10'
       color-2: '#d27f3d'
     font:
-      family-default:   'muli, sans-serif, Tahoma, Geneva, Arial'
-      family-title:     'muli, sans-serif, Tahoma, Geneva, Arial'
-      family-promo:     'playfairdisplay'
-      family-subpromo:  'playfairdisplay italic'
-      family-weather:  'weather'
+      family-default: 'Raleway, Helvetica, Tahoma, Geneva, Arial, sans-serif'
+      family-title: 'Lato, Helvetica, Tahoma, Geneva, Arial, sans-serif'
     top:
       background: '#d27f3d'
       text-color: '#ffffff'
@@ -366,7 +351,7 @@ preset5:
       mobile-menu-breakpoint: 48rem
 preset6:
   image: 'gantry-admin://images/preset6.png'
-  description: 'Preset 6'
+  description: GANTRY5_PLATFORM_PRESET6
   colors:
     - '#feb49f'
     - '#ffffff'
@@ -380,11 +365,8 @@ preset6:
       color-1: '#feb49f'
       color-2: '#ed939a'
     font:
-      family-default:   'muli, sans-serif, Tahoma, Geneva, Arial'
-      family-title:     'muli, sans-serif, Tahoma, Geneva, Arial'
-      family-promo:     'playfairdisplay'
-      family-subpromo:  'playfairdisplay italic'
-      family-weather:  'weather'
+      family-default: 'Raleway, Helvetica, Tahoma, Geneva, Arial, sans-serif'
+      family-title: 'Lato, Helvetica, Tahoma, Geneva, Arial, sans-serif'
     top:
       background: '#ed939a'
       text-color: '#ffffff'

@@ -8,20 +8,8 @@ form:
     family-default:
       type: input.fonts
       label: Body Font
-      default: 'muli, sans-serif, Tahoma, Geneva, Arial'
+      default: 'Raleway, Helvetica, Tahoma, Geneva, Arial, sans-serif'
     family-title:
       type: input.fonts
       label: Title Font
-      default: 'muli, sans-serif, Tahoma, Geneva, Arial'
-    family-promo:
-      type: input.fonts
-      label: Promo Font
-      default: 'playfairdisplay'
-    family-subpromo:
-      type: input.fonts
-      label: SubPromo Font
-      default: 'playfairdisplay italic'
-    family-weather:
-      type: input.fonts
-      label: Weather Font
-      default: 'weather'
+      default: 'Lato, Helvetica, Tahoma, Geneva, Arial, sans-serif'

@@ -2,7 +2,7 @@
 /**
  * @package   Gantry 5 Theme
  * @author    RocketTheme http://www.rockettheme.com
- * @copyright Copyright (C) 2007 - 2016 RocketTheme, LLC
+ * @copyright Copyright (C) 2007 - 2018 RocketTheme, LLC
  * @license   GNU/GPLv2 and later
  *
  * http://www.gnu.org/licenses/gpl-2.0.html
@@ -22,7 +22,7 @@ class G5_CreativeInstallerScript
      */
     public function preflight($type, $parent)
     {
-        if ($type == 'uninstall') {
+        if ($type === 'uninstall') {
             return true;
         }
 
@@ -55,11 +55,17 @@ class G5_CreativeInstallerScript
 
     /**
      * @param string $type
-     * @param object $parent
+     * @param JInstallerAdapterTemplate $parent
      * @throws Exception
      */
     public function postflight($type, $parent)
     {
+        // Delete previous jQuery overrides, those just break things.
+        $search = JPATH_ROOT . "/templates/{$parent->getName()}/js/jui";
+        if (JFolder::exists($search)) {
+            JFolder::delete($search);
+        }
+
         $installer = new Gantry\Framework\ThemeInstaller($parent);
         $installer->initialize();
 
