@@ -5,5 +5,5 @@ creative-theme:
   items:
     creative:
       title: 'Home'
-      outline: home_-_particles
+      outline: home
       home: 1

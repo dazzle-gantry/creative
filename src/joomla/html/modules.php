@@ -1,7 +1,7 @@
 <?php
 /**
  * @package   Gantry 5 Theme
- * @author    RocketTheme http://www.rockettheme.com
+ * @author    RocketTheme https://www.dazzlesoftware.org
  * @copyright Copyright (C) 2007 - 2018 RocketTheme, LLC
  * @copyright Copyright (C) 2005 - 2015 Open Source Matters, Inc. All rights reserved.
  * @license   GNU/GPLv2 and later

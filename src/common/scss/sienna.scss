@@ -2,10 +2,13 @@
 
 @import "dependencies";
 
-//-------------------------------------------//
+//-------------------------------------------
 
 
 // THEME STYLING
+
+// Base
+@import "nucleus/theme/base";
 
 // Body
 @import "creative/styles/body";
@@ -16,14 +19,14 @@
 // Menu
 @import "creative/styles/menu";
 
-// Utilities
-@import "creative/styles/utilities";
-
 // Hyperlinks
 @import "creative/styles/hyperlinks";
 
 // Typography
 @import "creative/styles/typography";
+
+// Utilities
+@import "creative/styles/utilities";
 
 // Variations
 @import "creative/styles/variations";
@@ -37,10 +40,13 @@
 // Forms
 @import "creative/styles/forms";
 
+// Dropdown Animations
+@import "creative/styles/dropdownanimations";
+
 // Style Specific Styling
 @import "creative/styles/creative-style";
 
-//-------------------------------------------//
+//-------------------------------------------
 
 
 // SECTIONS STYLING
@@ -96,7 +102,7 @@
 // OffCanvas
 @import "creative/sections/offcanvas";
 
-//-------------------------------------------//
+//-------------------------------------------
 
 
 // Layouts
@@ -110,7 +116,7 @@
 // Offline
 @import "creative/layouts/offline";
 
-//-------------------------------------------//
+//-------------------------------------------
 
 
 // PARTICLES
@@ -173,10 +179,10 @@
 @import "creative/particles/contentarray";
 
 
-//-------------------------------------------//
+//-------------------------------------------
 
 
 // BREAKPOINTS
 @import "nucleus/theme/breakpoints/base";
 
-//-------------------------------------------//
+//-------------------------------------------

@@ -10,6 +10,16 @@ items:
     link: 'http://www.twitter.com/rockettheme'
     name: Twitter
   -
+    icon: 'fa fa-facebook fa-fw'
+    text: ''
+    link: 'http://www.facebook.com/RocketTheme'
+    name: Facebook
+  -
+    icon: 'fa fa-google-plus fa-fw'
+    text: ''
+    link: 'https://plus.google.com/+rockettheme'
+    name: Google+
+  -
     icon: 'fa fa-youtube-play fa-fw'
     text: ''
     link: 'http://www.youtube.com/rockettheme'
