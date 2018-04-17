@@ -17,3 +17,8 @@ form:
       type: input.imagepicker
       label: Background Image
       default: "gantry-media://backgrounds/header/img-01.jpg"
+    background-size:
+      type: input.text
+      label: Background Size
+      description: Select the image background size.
+      default: "contain auto"
